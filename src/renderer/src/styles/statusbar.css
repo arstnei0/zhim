@@ -1,0 +1,13 @@
+.statusbar {
+	position: absolute;
+	bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.statusbar .mode {
+}
+
+.statusbar .typing {
+}

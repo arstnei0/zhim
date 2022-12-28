@@ -16,10 +16,11 @@ specifiers:
   prettier: ^2.7.1
   solid-devtools: ^0.24.4
   solid-js: ^1.6.2
-  solid-trpc: 0.0.11-rc.2
+  solid-trpc: ^0.0.9
   typescript: ^4.9.3
   vite: ^3.2.4
   vite-plugin-solid: ^2.4.0
+  zihan-solid-trpc: ^0.0.1
   zod: ^3.20.2
 
 dependencies:
@@ -29,7 +30,8 @@ dependencies:
   '@trpc/client': 10.7.0_@trpc+server@10.7.0
   '@trpc/server': 10.7.0
   electron-trpc: 0.2.1_llls5qh4gdmxbqdwuosomskeoe
-  solid-trpc: 0.0.11-rc.2_moe7pnp2d4iox4so3rsbdhuozm
+  solid-trpc: 0.0.9_moe7pnp2d4iox4so3rsbdhuozm
+  zihan-solid-trpc: 0.0.1_moe7pnp2d4iox4so3rsbdhuozm
   zod: 3.20.2
 
 devDependencies:
@@ -2795,12 +2797,12 @@ packages:
       solid-js: 1.6.6
     dev: true
 
-  /solid-trpc/0.0.11-rc.2_moe7pnp2d4iox4so3rsbdhuozm:
-    resolution: {integrity: sha512-hmxf1svB6qf40t81WFMT9329Je7T+hF0/kfLZH/XSkT3jtzjjI8PeZMjc3CRFpMY/BubQQ0gWCFpUhxvlnNl+w==}
+  /solid-trpc/0.0.9_moe7pnp2d4iox4so3rsbdhuozm:
+    resolution: {integrity: sha512-hBa71XPQHtU6AwYQiPNwmQeuMaXhdRu4kLTIoUq34W4UTbf4nnkK/Q3B53jeIAhhOWnRQ3mXc0uxyhAwdHAOEA==}
     peerDependencies:
       '@tanstack/solid-query': ^4.6.1
-      '@trpc/client': ^10.0.0-rc.2
-      '@trpc/server': ^10.0.0-rc.2
+      '@trpc/client': 9.27.2
+      '@trpc/server': 9.27.2
       solid-js: ^1.5.3
     dependencies:
       '@tanstack/solid-query': 4.20.4_solid-js@1.6.6
@@ -3125,6 +3127,20 @@ packages:
     dependencies:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
+
+  /zihan-solid-trpc/0.0.1_moe7pnp2d4iox4so3rsbdhuozm:
+    resolution: {integrity: sha512-n4kNFDURU0xAe/Ey+ujCvvLWULs9YSqk8eGXXcEEBqh8EupQVyx7vmpgHqXITeMj7vuPD6W9hSCRreT2CpLL0g==}
+    peerDependencies:
+      '@tanstack/solid-query': ^4.6.1
+      '@trpc/client': ^10.0.0-rc.2
+      '@trpc/server': ^10.0.0-rc.2
+      solid-js: ^1.5.3
+    dependencies:
+      '@tanstack/solid-query': 4.20.4_solid-js@1.6.6
+      '@trpc/client': 10.7.0_@trpc+server@10.7.0
+      '@trpc/server': 10.7.0
+      solid-js: 1.6.6
+    dev: false
 
   /zod/3.20.2:
     resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}

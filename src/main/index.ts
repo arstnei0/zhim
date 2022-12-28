@@ -2,7 +2,7 @@ import { app, shell, BrowserWindow } from "electron"
 import * as path from "path"
 import { electronApp, optimizer, is } from "@electron-toolkit/utils"
 import { createIPCHandler } from "electron-trpc/main"
-import { router } from "@trpc/server"
+import { router } from "./trpc/"
 
 function createWindow(): void {
 	// Create the browser window.

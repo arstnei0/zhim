@@ -22,6 +22,6 @@ if (process.contextIsolated) {
 	window.api = api
 }
 
-process.once('loaded', async () => {
-  exposeElectronTRPC();
-});
+process.once("loaded", async () => {
+	exposeElectronTRPC()
+})
